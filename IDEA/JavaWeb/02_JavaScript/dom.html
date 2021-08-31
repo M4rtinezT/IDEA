@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--当用户点击校验按钮时，获取输出框中的内容，然后验证其是否合法
+        验证规则是：必须要字母，数字和下划线组成，长度为5-12位-->
+    <script type="text/javascript">
+      function onclickFun(){
+          var elementById = document.getElementById("id001");
+          var username = elementById.value;
+          //验证复合规则
+        var patt = /^\w{5,12}$/;
+        if (patt.test(username)){
+            alert("用户名合法");
+        }else {
+            alert("用户名不合法")
+        }
+
+      }
+    </script>
+</head>
+<body>
+    用户名: <input type="text" id="id001" value="dghf"/>
+    <button onclick="onclickFun()">校验</button>
+</body>
+</html>

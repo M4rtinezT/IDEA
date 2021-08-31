@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        window.onload = function (){
+            var elementById = document.getElementById("id001");
+            elementById.onchange = function (){
+                alert("动态代理")
+            }
+        }
+    </script>
+</head>
+<!--动态注册onchange事件-->
+<body>
+    请选择：
+    <select id="id001">
+        <option>--请选择--</option>
+        <option>1111111111</option>
+        <option>2222222222</option>
+    </select>
+</body>
+</html>
