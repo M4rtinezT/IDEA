@@ -1,0 +1,8 @@
+package day09;
+
+public class Test {
+	public static void main(String[] args) {
+		String s = "我爱你";
+		System.out.println(s);
+	}
+}

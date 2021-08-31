@@ -1,0 +1,17 @@
+package day13;
+
+public class Test13 {
+
+}
+class User{
+	private String name;
+	private int age;
+//重写equals（）方法
+	public boolean equals(Object obj){
+		if (this == obj){
+			return true;
+		}
+	if(obj instanceof obj){
+ 		User user = (User)obj;
+		if()
+

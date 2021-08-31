@@ -1,0 +1,10 @@
+package day09;
+
+public class Recursion {
+	public int sum1(int n) {
+		
+		
+	}
+}
+
+

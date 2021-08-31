@@ -1,0 +1,9 @@
+package day09;
+
+public class ArrayUtilTest {
+	public static void main(String[] args) {
+		ArrayUtil test = new ArrayUtil();
+		int[] temp = int []{1,3,4,5,-56,-65,5,25,36,-7};
+		test.Average(temp);
+	}
+}
